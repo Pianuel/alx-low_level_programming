@@ -1,4 +1,4 @@
-lude <stdio.h>
+#include <stdio.h>
 /**
  * main - A program thag prints the size of various varoius computer types
  * Return 0 (Success)
