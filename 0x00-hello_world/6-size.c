@@ -1,13 +1,15 @@
 #include <stdio.h>
 /**
  * main - A program thag prints the size of various varoius computer types
- * Return 0 (Success)
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
         char a;
         int b;
-        long int c;                                                                             long long int d;
+        long int c;
+	long long int d;
         float f;
 
 printf("Size of a char: %d byte(s)\n", (unsigned long)sizeof(a));
